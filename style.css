@@ -1,0 +1,48 @@
+#idCard {
+    background: rgb(22, 93, 214);
+    border: 4px solid black;
+    width: 30%;
+    height: 250px;
+    padding: 50px;
+    margin: auto;
+}
+
+html {
+    background-color: #00b8e6;
+}
+
+img {
+width: 90px;
+height: 90px;
+float: left;
+}
+
+body {
+    text-align: center;
+}
+
+h4 {
+    margin-bottom: auto;
+}
+button {
+    margin: 10px;
+}
+
+#postFirstLastName {
+    font-size: 50px;
+}
+
+#postAge {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#postPhoneNumber {
+    margin-bottom: 5px;
+    float: left;
+}
+
+#postAddress {
+    margin-top: 15px;
+    text-align: left;
+}

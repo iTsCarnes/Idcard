@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>ID Card Generator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <h1>ID Card</h1>
+
+        <h4> First Name: </h4>
+
+        <input type="text" id="firstName" placeholder="">
+
+        <h4> Last Name: </h4>
+
+        <input type="text" id="lastName" placeholder="">
+
+        <h4> Age: </h4>
+
+        <input type="text" id="age" placeholder="">
+
+        <h4> Phone Number: </h4>
+
+        <input type="text" id="phoneNumber" placeholder="">
+
+        <h4> Address: </h4>
+
+        <input type="text" id="address" placeholder=""><br>
+
+        <button onclick="generateID()">GenerateID</button>
+
+        <div id="idCard">
+            <div>
+                <img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
+                <div id = "postFirstLastName"></div>
+            </div>
+            <br>
+            <div id="postAge"></div>
+            <br>
+            <div id = "postPhoneNumber">
+            </div>
+            <br>
+            <div id = "postAddress"></div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
